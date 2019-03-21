@@ -1,0 +1,72 @@
+.box {
+	width: 90%;
+	margin: auto;	
+}
+
+.menu {
+	
+	line-height: 1;
+	position: relative;
+	padding-bottom: 20px;
+		
+}
+
+.main {
+	font-size: 15pt;
+	margin: auto;
+	width: 60%;
+	box-shadow: 0 4px 8px 0 #b3b3cc, 0 6px 20px 0 #b3b3cc;
+	min-height: 1000px;
+}
+
+.pictures {
+	width: 70%;
+}
+
+.test {
+	float: left;
+	width: 50%;
+    padding: 0;
+    margin: 0;
+}
+
+.block {
+	color: green
+}
+
+#Hello_text {
+	text-align: center;
+	padding-top: 10px;
+}
+
+div {
+	display: block;
+}
+
+.menu ul {
+	margin: 0;
+	list-style-type: none;
+	overflow: hidden;
+	padding-left: 20%;
+	background-color: #7b9d84;
+	
+}
+
+.menu li {
+	display: block;
+	float: left;
+	overflow: hidden;
+	padding: 5px;
+	
+}
+
+.menu li a {
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	padding: 30px;
+}
+
+.menu li a:hover {
+	background-color: #415847;
+}
