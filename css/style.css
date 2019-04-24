@@ -1,46 +1,89 @@
+.header {
+	margin: auto;
+	width: 1100px;
+}
+
 .box {
 	width: 90%;
-	margin: auto;	
+	margin: auto;
+}
+
+hr {
+	border-width: 10px;
+	width: 900px;
+	margin-bottom: 100px;
+	margin-top: 40px
+}
+
+#Shen_Nung_box {
+	margin-bottom: 100px;
+	
 }
 
 .menu {
 	
 	line-height: 1;
 	position: relative;
-	padding-bottom: 20px;
+	font-size: 20pt;
 		
 }
 
 .main {
 	font-size: 15pt;
 	margin: auto;
-	width: 60%;
+	width: 1100px;
 	box-shadow: 0 4px 8px 0 #b3b3cc, 0 6px 20px 0 #b3b3cc;
 	min-height: 1000px;
 }
 
 .pictures {
-	width: 70%;
+	width: 50%;
 }
 
-.test {
+.top_text {
 	float: left;
 	width: 50%;
     padding: 0;
-    margin: 0;
+    margin-top: 100px;
 }
 
-.block {
-	color: green
+.picture_2 {
+	float: left;
+	width: 35%;
+	margin-left: 20px;
 }
 
-#Hello_text {
+.left_box {
+	margin-right: 300px;
+	padding-bottom: 30px;
+}
+
+.right_box {
+	margin-left: 350px;
+	padding-bottom: 30px;
+}
+
+#foot {
+	height: 100px;
+	background-color: #7b9d84;
+	color: white;
 	text-align: center;
-	padding-top: 10px;
+	
 }
+/*PAR MUMS*/
+.about_text {
+	width: 60%;
+	margin: auto;
+	margin-top: 100px;
+	
+}
+/* STANDARTS*/
 
-div {
-	display: block;
+video {
+	margin: 30px;
+	width: 320px;
+	height: auto;
+
 }
 
 .menu ul {
@@ -51,6 +94,29 @@ div {
 	background-color: #7b9d84;
 	
 }
+
+.contact_box {
+	width: 800px;
+	margin: auto;
+	padding-top: 100px;
+	padding-bottom: 200px;
+}
+
+.googleMap {
+	width: 800px;
+	margin: auto;
+	padding-top: 300px;
+	padding-bottom: 200px;
+}
+
+#contact_left {
+	float: left;
+}
+
+#contact_right {
+	float: right;
+}
+
 
 .menu li {
 	display: block;
@@ -70,3 +136,4 @@ div {
 .menu li a:hover {
 	background-color: #415847;
 }
+
