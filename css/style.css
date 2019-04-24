@@ -1,43 +1,53 @@
-.header {
-	margin: auto;
-	width: 1100px;
+
+
+
+
+
+/*PAR MUMS*/
+/*GALERIJA*/
+
+.gallery {
+	height: 800px;
+	margin-left: 22px;
 }
+
+.gallery video {
+	margin: 20px;
+	margin-top: 80px;
+	width: 250px;
+	height: auto;
+
+}
+
+.gallery img {
+	margin: 20px;
+	width: 250px;
+	height: auto;
+}
+
+
+
+.polaroid {
+  width: 290px;
+  height: 290px;
+  margin: 30px;
+  float: left;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.about_text {
+	width: 60%;
+	margin: auto;
+	margin-top: 100px;
+	
+}
+/*INDEX HTML*/
 
 .box {
 	width: 90%;
 	margin: auto;
-}
-
-hr {
-	border-width: 10px;
-	width: 900px;
-	margin-bottom: 100px;
-	margin-top: 40px
-}
-
-#Shen_Nung_box {
-	margin-bottom: 100px;
-	
-}
-
-.menu {
-	
-	line-height: 1;
-	position: relative;
-	font-size: 20pt;
-		
-}
-
-.main {
-	font-size: 15pt;
-	margin: auto;
-	width: 1100px;
-	box-shadow: 0 4px 8px 0 #b3b3cc, 0 6px 20px 0 #b3b3cc;
-	min-height: 1000px;
-}
-
-.pictures {
-	width: 50%;
 }
 
 .top_text {
@@ -47,11 +57,11 @@ hr {
     margin-top: 100px;
 }
 
-.picture_2 {
-	float: left;
-	width: 35%;
-	margin-left: 20px;
+.pictures {
+	width: 50%;
 }
+
+
 
 .left_box {
 	margin-right: 300px;
@@ -63,50 +73,22 @@ hr {
 	padding-bottom: 30px;
 }
 
-#foot {
-	height: 100px;
-	background-color: #7b9d84;
-	color: white;
-	text-align: center;
-	
-}
-/*PAR MUMS*/
-.about_text {
-	width: 60%;
-	margin: auto;
-	margin-top: 100px;
-	
-}
-/* STANDARTS*/
-
-video {
-	margin: 30px;
-	width: 320px;
-	height: auto;
-
-}
-
-.menu ul {
-	margin: 0;
-	list-style-type: none;
-	overflow: hidden;
-	padding-left: 20%;
-	background-color: #7b9d84;
-	
-}
+/*KONTAKTI*/
 
 .contact_box {
 	width: 800px;
 	margin: auto;
 	padding-top: 100px;
-	padding-bottom: 200px;
+	
+
 }
 
-.googleMap {
-	width: 800px;
-	margin: auto;
-	padding-top: 300px;
-	padding-bottom: 200px;
+#googleMap {
+	width: 100%;
+	height: 30px;
+	margin-top: 400px;
+	margin-bottom: 200px;
+	padding-bottom: 300px;
 }
 
 #contact_left {
@@ -117,6 +99,54 @@ video {
 	float: right;
 }
 
+/*STANDART*/
+
+.main {
+	font-size: 15pt;
+	margin: auto;
+	width: 1100px;
+	box-shadow: 0 4px 8px 0 #b3b3cc, 0 6px 20px 0 #b3b3cc;
+	min-height: 1000px;
+}
+
+
+#foot {
+	height: 100px;
+	background-color: #7b9d84;
+	color: white;
+	text-align: center;
+	width: 1100px;
+	margin: auto;
+}
+
+hr {
+	border-width: 10px;
+	width: 900px;
+	margin-bottom: 100px;
+	margin-top: 40px
+}
+
+.header {
+	margin: auto;
+	width: 1100px;
+}
+/*MENU*/
+.menu {
+	
+	line-height: 1;
+	position: relative;
+	font-size: 20pt;
+		
+}
+
+.menu ul {
+	margin: 0;
+	list-style-type: none;
+	overflow: hidden;
+	padding-left: 20%;
+	background-color: #7b9d84;
+	
+}
 
 .menu li {
 	display: block;
@@ -137,3 +167,73 @@ video {
 	background-color: #415847;
 }
 
+/*PROJEKTI*/
+.project {
+	height: 900px;
+}
+
+.project_left {
+	width: 20%;
+	float: left;
+
+}
+
+.project_left ul {
+	margin: 0;
+	list-style-type: none;
+	overflow: hidden;
+	padding-left: 20%;
+	background-color: #7b9d84;
+	height: 900px;
+}
+
+.project_left li {
+	display: block;
+	float: left;
+	overflow: hidden;
+	padding: 5px;
+	
+}
+
+.project_left li a {
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	padding-right: 80px;
+
+}
+
+.project_left li a:hover {
+	background-color: #415847;
+}
+
+.project_right {
+	width: 70%;
+	margin-right: 60px;
+	margin-top: 40px;
+	float: right;
+}
+
+.project hr {
+	border-width: 10px;
+	width: 700px;
+	margin-bottom: 100px;
+	margin-top: 40px;
+}
+
+.project_text {
+	float: left;
+	width: 50%;
+    padding: 0;
+}
+
+.project_right img {
+	width: 300px;
+	height: auto;
+}
+
+.gads {
+	font-size: 30pt;
+	color: gray;
+}

@@ -46,13 +46,30 @@
 					and typesetting industry.
 				</div>
 
-				<div class="googleMap">
-					asd
+				<div id="googleMap">
+					
 				</div>
+				
 				
 
 			</div>
 	</div>
 	
+	<footer id="foot">
+			CopyRight Ⓒ Dmitrijs Tkačuks [SaintMiner]
+	</footer>
+
+	<script>
+		function myMap() {
+			var mapProp= {
+	 			center:new google.maps.LatLng(56.9461899,24.1089612),
+  				zoom:17,  				
+			};
+			var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+			}
+	</script>
+
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyByCXYwxVsVdG_ffIfFWFtI1orl16imZyA&callback=myMap"></script>
+
 </body>
 </html>
